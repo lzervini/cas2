@@ -43,3 +43,12 @@ h2{
 }
 
 /* formulaire*/
+.formulaire{
+    border: 1px solid #DADADA;
+    border-radius: 28px;
+    padding: 17px 50px 17px 17px;
+    width: 18.75rem;
+    font-family: "Rubik";
+    font-size: 1.25rem;
+
+}
