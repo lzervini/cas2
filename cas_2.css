@@ -100,10 +100,17 @@ h2{
     margin-left: 19rem;
 }
 
-.marginb{
+.marginbt{
     margin-bottom: 8rem;
+    margin-top: 5rem
 }
 
 .height5{
     height: 5.9375rem;
+}
+
+/* Media Queries MOBILE PORTRAIT*/
+@media only screen and (orientation: portrait) and (max-device-width:600px){
+
+    
 }
