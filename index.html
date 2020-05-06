@@ -8,23 +8,26 @@
     <title>Cas numéro 2</title>
 </head>
 <body>
-    <section>
-        <section>
+    <section class="flex around">
+        <section class="width20">
             <header>
                 <h1> <img src="images/logo.png"></h1>
                 <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit 
                 sed do eiusmod on tempor incididunt ut labore.</p>
             </header>
+                <div class="flex">
                     <p><a href="#"><img src="images/facebook.png"></a></p>
                     <p><a href="#"><img src="images/twitter.png"></a></p>
                     <p><a href="#"><img src="images/pinterest.png"></a></p>
                     <p><a href="#"><img src="images/devinart.png"></a></p>
+                </div>
+                    
         </section>
         <section>
             <header>
                 <h2>Generals</h2>
             </header>
-                <ul class="listnone">
+                <ul class="listnone lineheight ">
                     <li>Payment</li>
                     <li>Affiliate</li>
                     <li>API Supports</li>
@@ -38,7 +41,7 @@
             <header>
                 <h2>Support</h2>
             </header>
-            <ul class="listnone">
+            <ul class="listnone lineheight">
             <li>Team Member</li>
             <li>People</li>
             <li>Platform</li>
@@ -58,22 +61,25 @@
                     <input type="email" id="mail" name="user-mail" placeholder="Email Address" value="" class="formulaire">
                 </div>
                 <div>
-                    <input type="submit" value="Submit" class="button ">
+                    <input type="submit" value="Submit" class="button">
                 </div>
              </form>
         </section>
     </section>
 </body>
 <footer>
-    <div id="copyright">
-        <div id="asifuxd">
-            <p>Copyright © Asifuxd - 2019</p>
+    <div id="copyright" class="flex around">
+        <p>Copyright © Asifuxd - 2019</p>
+        <div id="conditions">
+            <ul class="listnone flex between">
+                <li class="margin40">Terms and Conditions</li>
+                <li class="margin40">Privacy & Policy</li>
+                <li class="margin40">Legal</li>
+                <li class="margin40">Notice</li>
+            </ul>
         </div>
-        <div id="term_cond">
-            <p>Terms and Conditions</p>
-            <p>Privacy & Policy</p>
-            <p>Legal</p>
-            <p>Notice</p>
+    </div>
+
         </div>
     </div>
 </footer>
