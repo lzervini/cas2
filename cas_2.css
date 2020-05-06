@@ -179,10 +179,59 @@ a:link{
     #copyright{
         text-align: center;
     }
-
-    
-
-
-
 }
 
+/* Media Queries MOBILE PAYSAGE*/
+@media only screen and (orientation: landscape) and (max-width: 767.98px){
+
+    body{
+        margin:0;
+    }
+
+    .intro, .email {
+        display: none;
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+
+    header >h1 {
+        text-align: center;
+    }
+
+    li, p{
+        font-size: 0.7rem;
+        line-height: 25px;
+    }
+
+    #rs{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .width20{
+        width:100%;
+    }
+
+    #colonne{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .formulaire, .button{
+        display: none;
+    }
+
+    .mobil-marg{
+        margin: 0;
+    }
+
+    #conditions li{
+        margin-left: 0;
+    }
+
+    #copyright{
+        text-align: center;
+    }
+}
