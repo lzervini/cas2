@@ -196,10 +196,6 @@ a:link{
         font-size: 1rem;
     }
 
-    header >h1 {
-        text-align: center;
-    }
-
     li, p{
         font-size: 0.7rem;
         line-height: 25px;
@@ -207,15 +203,11 @@ a:link{
 
     #rs{
         display: flex;
-        justify-content: space-around;
-    }
-
-    .width20{
-        width:100%;
+        justify-content: flex-start;
     }
 
     #colonne{
-        flex-direction: column;
+        flex-direction: row;
         margin: 0;
     }
 
@@ -223,12 +215,13 @@ a:link{
         display: none;
     }
 
-    .mobil-marg{
-        margin: 0;
+    .mobil-marg, .margin-r{
+        margin-left:30px;
+        margin-right: 40px;
     }
 
     #conditions li{
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     #copyright{
