@@ -289,6 +289,57 @@ a:link{
 
 /* Media Queries TABLETTE Paysage */
 @media (max-width: 1024px) and (orientation: landscape){
+    body{
+        margin:0;
+    }
+  
+    h2{
+        font-size: 1.3rem;
+    }
 
-    
+    li, p, .formulaire, .button{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+
+    .en-tete> header{
+        width: 50%;
+        margin-right: 100px;
+    }
+
+    #rs{
+        display: flex;
+        align-items: center;
+    }
+
+
+    #colonne{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 6rem;
+
+    }
+
+    #g-s-c{
+        margin-top: 6rem;
+    }
+
+    .en-tete{
+        display:flex;
+        align-items: center;
+        width: 100%
+    }
+
+    .mobil-marg, .margin-r{
+        margin-left:100px;
+        margin-right: 100px;
+    }
+
+    #conditions li{
+        margin-left: 20px;
+    }
+
+    #copyright{
+        text-align: center;
+    }
 }
