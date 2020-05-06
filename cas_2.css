@@ -115,10 +115,14 @@ a:link{
     height: 5.9375rem;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
 /* Media Queries MOBILE PORTRAIT*/
 @media only screen and (orientation: portrait) and (max-device-width:600px){
 
-    .intro {
+    .intro, .email {
         display: none;
     }
     
@@ -128,25 +132,27 @@ a:link{
 
     li, p{
         font-size: 0.7rem;
+        line-height: 25px;
     }
 
-    h1{
-            display: block;
-    }
 
     #colonne{
         flex-direction: column;
         margin: 0;
-    }
-
-
-    #rs>p{
-        padding-right: 30px;
+        
     }
 
     .formulaire, .button{
         display: none;
     }
+
+    .mobil-marg{
+        margin: 0;
+    }
+
+
+
+
 
 }
 
