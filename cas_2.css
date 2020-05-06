@@ -147,7 +147,7 @@ a:link{
 
     li, p{
         font-size: 0.7rem;
-        line-height: 25px;
+        line-height: 1.5625rem;
     }
 
     #rs{
@@ -198,7 +198,7 @@ a:link{
 
     li, p{
         font-size: 0.7rem;
-        line-height: 25px;
+        line-height: 1.5625rem;
     }
 
     #rs{
@@ -216,12 +216,12 @@ a:link{
     }
 
     .mobil-marg, .margin-r{
-        margin-left:30px;
-        margin-right: 40px;
+        margin-left: 1.875rem;
+        margin-right: 2.5rem;
     }
 
     #conditions li{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     #copyright{
@@ -242,12 +242,12 @@ a:link{
 
     li, p, .formulaire, .button{
         font-size: 0.9rem;
-        line-height: 25px;
+        line-height:1.5625rem;
     }
 
     .en-tete> header{
         width: 50%;
-        margin-right: 100px;
+        margin-right: 6.25rem;
     }
 
     #rs{
@@ -274,12 +274,12 @@ a:link{
     }
 
     .mobil-marg, .margin-r{
-        margin-left:30px;
-        margin-right: 40px;
+        margin-left: 1.875rem;
+        margin-right: 2.5rem;
     }
 
     #conditions li{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     #copyright{
@@ -299,12 +299,12 @@ a:link{
 
     li, p, .formulaire, .button{
         font-size: 0.9rem;
-        line-height: 25px;
+        line-height: 1.5625rem;
     }
 
     .en-tete> header{
         width: 50%;
-        margin-right: 100px;
+        margin-right: 6.25rem;
     }
 
     #rs{
@@ -331,12 +331,12 @@ a:link{
     }
 
     .mobil-marg, .margin-r{
-        margin-left:100px;
-        margin-right: 100px;
+        margin-left: 6.25rem;
+        margin-right: 6.25rem;
     }
 
     #conditions li{
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     #copyright{
