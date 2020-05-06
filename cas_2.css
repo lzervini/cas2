@@ -228,3 +228,10 @@ a:link{
         text-align: center;
     }
 }
+
+/* Media Queries TABLETTE PORTRAIT */
+@media (orientation: portrait) and (max-width: 1024px){
+
+    
+
+}
