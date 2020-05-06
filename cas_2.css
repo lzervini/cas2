@@ -25,6 +25,12 @@ h2{
     padding: 0;
 }
 
+a:link{
+    text-decoration: none;
+    color: white
+}
+
+
 .lineheight{
     line-height: 3rem;
 }
@@ -112,5 +118,35 @@ h2{
 /* Media Queries MOBILE PORTRAIT*/
 @media only screen and (orientation: portrait) and (max-device-width:600px){
 
+    .intro {
+        display: none;
+    }
     
+    h2{
+        font-size: 1rem;
+    }
+
+    li, p{
+        font-size: 0.7rem;
+    }
+
+    h1{
+            display: block;
+    }
+
+    #colonne{
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+    #rs>p{
+        padding-right: 30px;
+    }
+
+    .formulaire, .button{
+        display: none;
+    }
+
 }
+
