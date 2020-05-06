@@ -285,5 +285,10 @@ a:link{
     #copyright{
         text-align: center;
     }
+}
 
+/* Media Queries TABLETTE Paysage */
+@media (max-width: 1024px) and (orientation: landscape){
+
+    
 }
